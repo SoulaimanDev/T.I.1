@@ -264,3 +264,63 @@ main .wiki  a{
 .contact-form button:hover {
     background-color: #8b0226;
 }
+
+
+.liens {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Image de Liens */
+.liens-img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* Container des liens */
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Liste de liens */
+.links-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+/* Liens */
+.links-container a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #A90331;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #A90331;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.links-container a:hover {
+    background-color: #A90331;
+    color: white;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .links-container ul {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .links-container ul {
+        width: 80%;
+    }
+}
