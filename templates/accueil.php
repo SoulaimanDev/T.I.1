@@ -8,22 +8,9 @@
 </head>
 <body>
     <main class="container">
-    <header>
-        <h1>Athènes</h1>
-        <img src="img/banniere.jpg" alt="Blason de la ville d'Athènes" >
-    </header>
+    <?php include("inc/banniere.php");?>
     <section>
-        <nav class="navbar">
-            <ul>
-                <li><a href="accueil.html">Accueil</a></li>
-                <li><a href="geographie.html">Geographie</a></li>
-                <li><a href="histoire.html">Histoire</a></li>
-                <li><a href="culture.html">Culture</a></li>
-                <li><a href="galerie.html">Galerie</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="liens.html">Liens</a></li>
-            </ul>
-        </nav>
+   <?php include("inc/menu.php");?>
     </section>
 
    
