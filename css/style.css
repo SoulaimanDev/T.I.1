@@ -168,3 +168,25 @@ main .wiki  a{
     margin: 20px auto;
     border-collapse: collapse;
 }
+/* Style des cellules du tableau */
+.gallery-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style des images */
+.gallery-table img {
+    width: 100%;
+    max-width: 480px; /* Les images sont de 480px */
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style des légendes */
+.caption {
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+    color: #333;
+}
