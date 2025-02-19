@@ -190,3 +190,77 @@ main .wiki  a{
     text-align: center;
     color: #333;
 }
+
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Image de Contact */
+.contact-img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* Formulaire */
+.contact-form {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Groupes de formulaire */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.contact-form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Textarea spécifique */
+.contact-form textarea {
+    height: 80px;
+}
+
+/* Bouton d'envoi */
+.contact-form button {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #A90331;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+.contact-form button:hover {
+    background-color: #8b0226;
+}
