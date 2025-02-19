@@ -156,3 +156,15 @@ main .wiki  a{
     color: black;
     text-decoration: none;
 }
+
+
+.gallery {
+    margin-top: 20px;
+}
+
+
+.gallery-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
